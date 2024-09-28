@@ -1,0 +1,26 @@
+.main__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main__wrapper__content {
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 32px 20px 24px;
+    max-width: 1304px;
+}
+
+.main__wrapper__header {
+    border-bottom: 1px solid #5A6877;
+    padding-bottom: 16px;
+    margin: 0 0 24px;
+    font-size: 20px;
+    color: white; /* root */
+}
+
+@media (max-width: 1024px) {
+    .main__wrapper__content {
+        padding: 0 16px 20px 16px;
+    }
+}

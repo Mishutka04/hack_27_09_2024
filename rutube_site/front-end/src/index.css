@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  font-family: "Open Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* colors variables */
+  --background-primary: #14191F;
+  --background-secondary: ;
+
+  --font-light-primary: #000;
+  --font-dark-primary: #fff;
+  --font-secondary: #889BAF;
+  --font-accent-hover: #1EABE9;
+
+  --font-input-primary: ;
+
+  --font-menu-primary: ;
+  --font-menu-secondary: ;
+  --font-menu-hover: ;
+  
+  --btn-primary: ;
+  --btn-active: #00A1E7;
+  --btn-hover: ;
+  --btn-agree-hover: ;
+  --btn-disagree-hover: ;
+
+  --modules-border-primary: #29333D;
+
+  --left-menu-hover: #29333D;
+}
+
+.web-scroll-bar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.web-scroll-bar::-webkit-scrollbar-thumb {
+  background: #3D4A58;
+  border-radius: 3px;
+  transition: background-color .2s ease-in-out;
+}
+
+.web-scroll-bar::-webkit-scrollbar-track {
+  background: transparent;
+}

@@ -1,0 +1,32 @@
+.light-blue-font {
+    color: var(--btn-active);
+    font-weight: 700;
+}
+
+.code-enter {
+    margin-bottom: 24px;
+}
+
+.code-enter__text {
+    color: white; /* root */
+}
+
+.code-enter h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.code-enter h2 {
+    font-size: 20px;
+}
+
+.code-enter ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+
+.code-enter ul li {
+    padding-left: 5px;
+    padding-bottom: 15px;
+}

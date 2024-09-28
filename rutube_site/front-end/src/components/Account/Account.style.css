@@ -1,0 +1,107 @@
+.join-account {
+    padding: 11px 16px;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    width: 404px;
+    transform: translate(-50%, -50%);
+    background-color: #29333D;
+    z-index: 2;
+}
+
+.modal__snake-title-module {
+    padding: 0 24px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 88px;
+    justify-content: center;
+}
+
+.modal__snake-title-module__head {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.modal__snake-title-module__close {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+}
+
+.modal__snake-content-module {
+    padding: 0 40px 32px;
+    width: 100%;
+    display: flex;
+}
+
+.modal__snake-content-module {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.modal__snake-form-module {
+    width: 100%;
+}
+
+.modal__snake-form-module__title {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 4px;
+    margin-top: 16px;
+}
+
+.modal__snake-form-module__enter-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal__snake-form-module__login-input, .modal__snake-form-module__continue-btn {
+    width: 100%;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    outline: none;
+}
+
+.modal__snake-form-module__login-input {
+    background-color: #1C232B;
+    border: 1px solid #3D4A58;
+    padding: 10px 11px;
+}
+
+.modal__snake-form-module__continue-btn {
+    margin-top: 32px;
+    border: 0;
+    padding: 11px 16px;
+    background-color: #212932;
+    color: #5A6877;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.modal__snake-form-module__continue-btn:hover {
+    background-color: var(--btn-active);
+    border-color: var(--btn-active);
+    color: white;
+}

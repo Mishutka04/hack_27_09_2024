@@ -1,0 +1,28 @@
+.main__left-side-menu {
+    background-color: #1C232B;
+    height: 100%;
+}
+
+.main__left-side-menu.opened {
+    width: 280px;
+}
+
+.main__left-side-menu.closed {
+    width: 72px;
+}
+
+.main__left-side-menu__list-group {
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.main__left-side-menu__list-group.closed {
+    padding: 0;
+}
+
+.main__left-side-menu__list-group.opened {
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}

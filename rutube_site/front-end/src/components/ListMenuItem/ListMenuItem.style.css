@@ -1,0 +1,47 @@
+.list-menu-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list-menu-item.closed {
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-menu-item.opened {
+    width: 252.4px;
+    height: 40px;
+    padding-left: 24px;
+}
+
+.list-menu-item:hover {
+    background-color: var(--left-menu-hover);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.list-menu-item__icon {
+    height: 24px;
+}
+
+.list-menu-item.opened .list-menu-item__text {
+    margin-left: 24px;
+    font-size: 14px;
+}
+
+.list-menu-item__text {
+    font-size: 10px;
+    line-height: 12px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: normal;
+    margin: 4px 0;
+    padding: 0 4px;
+}
+
+.list-menu-item__text span {
+    color: white; /* root */
+}

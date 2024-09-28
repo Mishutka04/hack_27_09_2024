@@ -1,0 +1,27 @@
+/* Buttons styles */
+.blue-btn-active, .blue-btn-border-inactive, .blue-btn-inactive {
+    border: 0;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.blue-btn-active {
+    color: var(--font-dark-primary);
+    background-color: var(--btn-active);
+}
+
+.blue-btn-inactive {
+    background-color: 0;
+    color: var(--font-secondary);
+}
+
+.blue-btn-inactive:hover {
+    color: var(--font-accent-hover);
+}
+
+.blue-btn-border-inactive {
+    /* доделать */
+}

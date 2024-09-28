@@ -1,0 +1,25 @@
+.chat-bot__submit {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    cursor: pointer;
+    background-color: #14191F;
+    transition: all .2s linear;
+}
+
+.chat-bot__submit:hover {
+    background-color: #00A1E7;
+}
+
+.chat-bot__submit__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.listening {
+    background-color: #23292f;
+}

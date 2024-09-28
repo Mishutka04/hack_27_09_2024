@@ -1,0 +1,45 @@
+# Python venv folders
+Lib
+Scripts
+Include
+pyvenv.cfg
+venv
+share
+chat_bot/models
+# Python local cache folders 
+__pycache__
+
+### Frontend part
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Не импортируем модель и переменный
+rutube_app/chat_bot/models
+rutube_app/tg_bot/env.py
+models
+db.sqlite3
+_bot.py
+models.zip

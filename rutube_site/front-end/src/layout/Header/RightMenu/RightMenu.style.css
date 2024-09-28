@@ -1,0 +1,22 @@
+.header__right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__right-menu__modules {
+    display: flex;
+    gap: 24px;
+    margin: 0 24px;
+}
+
+@media (max-width:1024px) {
+    .header__right-menu__modules {
+        margin: 0;
+    }
+}
+
+@media (max-width:767px) {
+    .header__right-menu__modules {
+        gap: 12px;
+    }
+}

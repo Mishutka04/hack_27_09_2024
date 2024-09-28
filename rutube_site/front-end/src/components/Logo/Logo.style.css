@@ -1,0 +1,23 @@
+.left-menu__logo {
+    fill: var(--font-dark-primary);
+    cursor: pointer;
+    height: 100%;
+    width: 148px;
+}
+
+.logo-link {
+    height: 100%;
+}
+
+@media (max-width: 1024px) {
+    .left-menu__logo {
+        width: 130px;
+    }
+}
+
+@media (max-width: 767px) {
+    .left-menu__logo {
+        width: 103px;
+        height: 24px;
+    }
+}

@@ -1,0 +1,14 @@
+.main__wrapper__content__faq-menu-container {
+    display: flex;
+    background-color: #1C232B;
+    border-radius: 8px;
+    padding: 16px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.faq-menu__pen-tabs {
+    display: flex;
+    flex-shrink: 0;
+    list-style: none;
+}

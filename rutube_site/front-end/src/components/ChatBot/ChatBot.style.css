@@ -1,0 +1,132 @@
+.chat-bot {
+    height: 400px;
+    background-color: #1C232B;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    padding: 24px 5%;
+    align-items: flex-end;
+}
+
+.chat-bot__form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-bot__input {
+    width: 90%;
+    height: 42px;
+    padding: 8px 32px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #14191F;
+    outline: none;
+    overflow: hidden;
+    font-size: 14px;
+    color: #fff;
+    transition: all .3s linear;
+}
+
+.chat-bot__input::placeholder {
+    color: var(--font-secondary);
+}
+
+.chat-bot__messages {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 35px 30px 10px 30px;
+    overflow-y: scroll;
+    background-color: #14191F;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.chat-bot__message__wrapper {
+    display: grid;
+}
+
+.chat-message {
+    display: grid;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.user-message, .bot-message {
+    width: 45%;
+    margin-bottom: 15px;
+    word-break: normal;
+    word-wrap: normal;
+    overflow-wrap: normal;
+}
+
+.user-message {
+    grid-template-columns: auto 30px;
+    justify-self: flex-end;
+}
+
+.bot-message {
+    grid-template-columns: 30px auto;
+    grid-template-areas: 
+    ". . ."
+    ". rating-area rating-area";
+}
+
+.user-message p {
+    justify-self: flex-end;
+}
+
+.bot-icon, .user-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.bot-icon {
+    background-color: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.user-icon {
+    background-color: #fff;
+    border-radius: 50px;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.bot-icon img, .user-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.user-icon {
+    padding-top: 3px;
+}
+
+.chat-bot__messages::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-bot__messages::-webkit-scrollbar-thumb {
+  background: #3D4A58;
+  border-radius: 3px;
+  transition: background-color .2s ease-in-out;
+}
+
+.chat-bot__messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.disabled {
+    background-color: #3D4A58;
+}
+
+@media (max-width:1024px) {
+    .chat-bot__input {
+        width: 80%;
+    }
+
+    .chat-bot__messages {
+        font-size: 14px;
+    }
+}

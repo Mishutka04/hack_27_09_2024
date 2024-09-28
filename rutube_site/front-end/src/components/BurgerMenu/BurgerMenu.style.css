@@ -1,0 +1,26 @@
+.burger-menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.burger-menu__btn {
+    background: none;
+    border: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.burger-menu__icon {
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .burger-menu__btn {
+        height: 16px;
+    }
+
+    .burger-menu__icon {
+        height: 16px;
+    }
+}
